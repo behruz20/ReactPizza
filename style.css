@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.big_container {
+  background-color: #fff;
+  width: 100%;
+}
+
+header>img {
+  margin: 47px 0 0 77px;
+}
+
+header>button {
+  margin: 47px 77px 0 0;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header>button {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #FE5F1E;
+  width: 150px;
+  height: 50px;
+  top: 95px;
+  left: 1197px;
+  gap: 0px;
+  border-radius: 30px;
+  opacity: 0px;
+  border: none;
+  font-size: 20px;
+  justify-content: center;
+}
+
+h1 {
+  margin: 32px 0 0 150px;
+}
+
+.ii {
+  width: 250px;
+  height: 85px;
+  background-color:
+    #F3F3F3;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.b1 {
+  width: 110px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 0 0 5px;
+}
+.b1:hover{
+  background-color: #2C2C2C;
+  color: #F3F3F3;
+}
+
+.b2 {
+  width: 120px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin: 0 0 0 5px;
+}
+.b2:hover{
+  background-color: #2C2C2C;
+  color: #F3F3F3;
+}
+
+.b3 {
+  width: 73px;
+  height: 32px;
+  top: 736px;
+  left: 301.21px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  margin: 8.5px 0 0 5px;
+  background-color: #fff;
+  border: none;
+}
+.b3:hover{
+  background-color: #2C2C2C;
+  color: #F3F3F3;
+}
+
+.filters {
+  margin: 0 75px 0 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select {
+  border: none;
+}
+
+.vaa,
+.vaaa,
+.vaaaa>button {
+  width: 100px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #F9F9F9;
+  color: #2C2C2C;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #282828;
+  color: #fff;
+}
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 55px 0 0;
+}
+
+.fff>button {
+  width: 132px;
+  height: 40px;
+  top: 792px;
+  left: 1205px;
+  gap: 0px;
+  border-radius: 30px;
+  opacity: 0px;
+  background-color: white;
+  border: 1.5px solid orange;
+  color: orange;
+  font-size: 15px;
+}
+
+.fff>button:hover {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+}
+
+.pizza {
+  width: 303px;
+  height: 510px;
+  top: 373px;
+  left: 427px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #fff;
+  display: flex;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizza img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.pizza h3 {
+  margin: 10px 0;
+}
+
+.pizza p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+@media (max-width: 1200px) {
+  .pizza {
+    width: calc(100% / 3 - 40px); /* 3 cards per row */
+  }
+}
+
+@media (max-width: 992px) {
+  .pizza {
+    width: calc(100% / 2 - 40px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .pizza {
+    width: calc(100% / 1 - 40px); /* 1 card per row */
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+
+  header img {
+    margin-bottom: 10px;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="big_container">
+        <header>
+            <img src="./assets/icons/Group 1.png" alt="">
+            <button class="mers" type="button">0₽ | <span><img
+                        src="./assets/icons/iconfinder_shopping-cart_2561279 1.png" alt="#"></span>0</button>
+        </header>
+        <hr>
+        <div class="filters">
+            <div class="f1">
+                <button class="button" data-filter="All">Все</button>
+                <button class="button" data-filter="Meat">Мясные</button>
+                <button class="button" data-filter="Vigtails">Вегетарианская</button>
+                <button class="button" data-filter="Gril">Гриль</button>
+                <button class="button" data-filter="Ostriy">Острые</button>
+                <button class="button" data-filter="Close">Закрытые</button>
+            </div>
+            <div class="f2">
+                <select id="sortSelect" class="select select-bordered w-full max-w-xs">
+                    <option disabled selected>Сортировка по: </option>
+                    <option value="popularity">Популярности</option>
+                    <option value="price">Цене</option>
+                    <option value="alphabet">Алфавиту</option>
+                </select>
+            </div>
+        </div>
+        <h1>Все пиццы</h1>
+        <div class="container">
+            <div id="pizzas" class="pizza-list"></div>
+        </div>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+section {
+  background-color: #fff;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 150px auto;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input container */
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+/* Login button */
+.login-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}

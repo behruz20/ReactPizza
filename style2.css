@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.big_container {
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header {
+  background-color: #ff6600;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.pizza-list {
+  padding: 20px;
+}
+
+.pizza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pizza img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.pizza h3 {
+  flex-grow: 1;
+  margin: 0 10px;
+  font-size: 1em;
+}
+
+.pizza p {
+  margin: 0 60px 0 0;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.summary {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: right;
+}
+
+.summary p {
+  margin: 5px 0;
+}
+
+.pay_now {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0 0 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  margin: 0 200px 0 0;
+  gap: 5px;
+}
+
+
+.fr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.butt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mers {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0 0 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.mers1 {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0 0 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.empty-cart{
+  text-align: center;
+}
